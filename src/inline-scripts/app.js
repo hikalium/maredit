@@ -21,7 +21,7 @@
 
 // eslint-disable-next-line no-redeclare
 const app = {
-  appName: 'Text Editor',
+  appName: 'maredit',
   file: {
     handle: null,
     name: null,
