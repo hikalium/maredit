@@ -1,12 +1,12 @@
 {
-  "name": "text-editor",
-  "description": "Text Editor - Demo for the HTML5 File System Access API.",
-  "version": "0.0.15",
+  "name": "maredit",
+  "description": "A Markdown text editor for writing books",
+  "version": "0.0.16",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GoogleChromeLabs/text-editor.git"
+    "url": "https://github.com/hikalium/maredit.git"
   },
-  "homepage": "https://googlechromelabs.github.io/text-editor/",
+  "homepage": "https://hikalium.github.io/maredit/",
   "browserslist": [
     "last 2 versions"
   ],
