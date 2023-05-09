@@ -20,9 +20,9 @@ const n=performance.getEntriesByType("paint");n&&n.length>0&&n.forEach((n=>{
 gaTiming("Start",n.name,Math.round(n.startTime+n.duration))}))}),3e3)}
 })),window.addEventListener("DOMContentLoaded",(()=>{if("performance"in window){
 gaTiming("Start","dom-content-loaded",Math.round(performance.now()))}window.ga&&window.ga("send","pageview","/")})),
-window.addEventListener("load",(()=>{gaEvent("App Version","0.0.23",null,null,!0)})),
+window.addEventListener("load",(()=>{gaEvent("App Version","0.0.24",null,null,!0)})),
 document.addEventListener("visibilitychange",(n=>{
-gaEvent("Page Visibility",!0===document.hidden?"hidden":"visible",null,null,!0)}));</script><script>"use strict";const app={appName:"Text Editor",file:{handle:null,name:null,isModified:!1},options:{captureTabs:!0,
+gaEvent("Page Visibility",!0===document.hidden?"hidden":"visible",null,null,!0)}));</script><script>"use strict";const app={appName:"maredit",file:{handle:null,name:null,isModified:!1},options:{captureTabs:!0,
 fontSize:14,monoSpace:!1,wordWrap:!0},hasFSAccess:"chooseFileSystemEntries"in window||"showOpenFilePicker"in window,
 isMac:navigator.userAgent.includes("Mac OS X")}
 ;app.hasFSAccess?(document.getElementById("not-supported").classList.add("hidden"),
