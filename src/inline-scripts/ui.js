@@ -20,7 +20,6 @@
   const spanAppName = document.getElementById('headerAppName');
   const spanFileName = document.getElementById('headerFileName');
   const modifiedHeader = document.getElementById('modifiedHeader');
-  const modifiedFooter = document.getElementById('modifiedFooter');
 
   // Setup the before unload listener to prevent accidental loss on navigation.
   window.addEventListener('beforeunload', (e) => {
@@ -76,6 +75,5 @@
     document.body.classList.toggle('modified', val);
     const hidden = !val;
     modifiedHeader.classList.toggle('hidden', hidden);
-    modifiedFooter.classList.toggle('hidden', hidden);
   };
 })(app);

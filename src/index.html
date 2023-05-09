@@ -18,14 +18,11 @@
 -->
 <html lang="en">
   <head>
-    <title>Text Editor</title>
+    <title>Maredit</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- SEO description and info -->
-    <meta name="description" content="Text Editor - Demo for the HTML5 File System Access.">
-    <link rel="canonical" href="https://googlechromelabs.github.io/text-editor/">
+    <meta name="description" content="Maredit - A Markdown text editor for writing books">
 
     <!-- Manifest and icons -->
     <link rel="manifest" href="./manifest.json">
@@ -42,36 +39,12 @@
     <meta name="msapplication-TileColor" content="#1a237e">
     <meta name="msapplication-tap-highlight" content="no">
 
-    <!-- Default twitter cards -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="https://googlechromelabs.github.io/text-editor/">
-    <meta name="twitter:title" content="Text Editor">
-    <meta name="twitter:description" content="Text Editor - Demo for the HTML5 File System Access API.">
-    <meta name="twitter:image" content="./images/icon-192.png">
-    <meta name="twitter:creator" content="@petele">
-
-    <!-- Other sharing -->
-    <meta property="og:title" content="Text Editor">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="./images/icon-192.png">
-    <meta property="og:url" content="https://googlechromelabs.github.io/text-editor/">
-    <meta property="og:description" content="Text Editor - Demo for the HTML5 File System Access API.">
-
-    <!-- Analytics -->
-    <script src="/inline-scripts/analytics.js" inline></script>
-
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/styles/main.css" inline>
     <link rel="stylesheet" href="/styles/standalone.css" inline>
     <link rel="stylesheet" media="print" href="/styles/print.css" inline>
-
-    <!-- Origin Trial Token NFS API v1 (expires 2020-05-12) -->
-    <meta http-equiv="origin-trial" content="ApP5hRHS+dIxGdu/1psSHsErxROE+aVFGqdUwBgrcsGuwWDpPo3iqanpH3EdEie7YHhBN0LL1sdkT89waJPbzwsAAABkeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWNocm9tZWxhYnMuZ2l0aHViLmlvOjQ0MyIsImZlYXR1cmUiOiJOYXRpdmVGaWxlU3lzdGVtIiwiZXhwaXJ5IjoxNTg5MzI3OTk5fQ==">
-    <!-- Origin Trial Token NFS API v2 (expires 2020-05-25) -->
-    <meta http-equiv="origin-trial" content="AouXz9/sqzYGRIFkw8KK0QXp0HOo99+Pg8NAr/4pRA1pAlaTeQ6BngqqkBUzfjvxzPcRf15pmieR4RDhJB9bKwAAAABleyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWNocm9tZWxhYnMuZ2l0aHViLmlvOjQ0MyIsImZlYXR1cmUiOiJOYXRpdmVGaWxlU3lzdGVtMiIsImV4cGlyeSI6MTU5MDQxNzc1NX0=">
   </head>
   <body class="wordwrap">
-
     <header>
       <h1>
         <span id="headerFileName">Text Editor</span><span id="modifiedHeader" class="hidden">*</span>
@@ -159,35 +132,12 @@
     <a id="aDownloadFile" download></a>
     <input type="file" id="filePicker">
 
-    <details id="footer" class="footer">
-      <summary>About
-        <span>
-          <span id="modifiedFooter" class="hidden">*</span>
-          <span id="lblLegacyFS" class="hidden footer-label">Legacy Mode</span>
-          <span id="lblTabMovesFocus" class="hidden footer-label">Tab Moves Focus</span>
-        </span>
-      </summary>
-      <div id="not-supported">
-        The
-        <a href="https://wicg.github.io/file-system-access/" target="_blank">File System Access API</a>
-        is <b>not</b> supported in this browser yet, and Text Editor is running
-        in legacy mode. In legacy mode, the file modified indicators are not shown.
-      </div>
-      <div>
-        Text Editor is a simple text editor similar to notepad that makes
-        it easy to edit text files on your local file system. It shows how
-        to easily use the new HTML5 File System Access APIs. To learn more
-        about the File System Access APIs and how this demo was built, check out
-        <a href="https://web.dev/file-system-access/" target="_blank">
-        The file system access APIs</a> article on Web Fundamentals, or see the
-        <a href="https://github.com/GoogleChromeLabs/text-editor/" target="_blank">
-        source code on GitHub</a>.
-        Written by <a href="https://twitter.com/petele" target="_blank">Pete LePage</a>.
-        <small id="lastUpdated">
-          Last Updated: [[BUILD_DATE]] (v[[VERSION]])
-        </small>
-      </div>
-    </details>
+    <div id="not-supported">
+      The
+      <a href="https://wicg.github.io/file-system-access/" target="_blank">File System Access API</a>
+      is <b>not</b> supported in this browser yet, and Text Editor is running
+      in legacy mode. In legacy mode, the file modified indicators are not shown.
+    </div>
 
     <!-- import the webpage's javascript file -->
     <!-- <script src="/inline-scripts/base.js" inline></script> -->
