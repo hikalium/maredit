@@ -1,6 +1,14 @@
-# HTML5 Text Editor
+# maredit
 
-A simple text editor designed to experiement with and demonstrate the
-new File System Access APIs.
+A simple, static Markdown text editor for writing books.
 
-This is not an officially supported Google product.
+```
+npm install
+gulp build
+gulp serve
+```
+
+## License
+MIT
+
+This project is a fork of [GoogleChromeLabs/text-editor](https://github.com/GoogleChromeLabs/text-editor)
