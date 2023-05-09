@@ -1,7 +1,7 @@
 {
   "name": "text-editor",
   "description": "Text Editor - Demo for the HTML5 File System Access API.",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "repository": {
     "type": "git",
     "url": "https://github.com/GoogleChromeLabs/text-editor.git"
