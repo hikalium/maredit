@@ -1,7 +1,7 @@
 {
   "name": "maredit",
   "description": "A Markdown text editor for writing books",
-  "version": "0.0.16",
+  "version": "0.0.21",
   "repository": {
     "type": "git",
     "url": "https://github.com/hikalium/maredit.git"
@@ -19,7 +19,7 @@
     "eslint-config-google": "^0.13.0",
     "eslint-plugin-html": "^6.0.0",
     "fs-extra": "^8.1.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
     "gulp-copy": "^4.0.1",
