@@ -8,6 +8,8 @@ sudo npm -g install gulp
 gulp build
 gulp serve
 gulp -LLLL deployProd
+
+clang-format -i src/inline-scripts/maredit.js
 ```
 
 ## License

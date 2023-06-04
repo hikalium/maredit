@@ -160,17 +160,6 @@
     <script src="/inline-scripts/load-sw.js" inline></script>
     <script src="/inline-scripts/app-install.js" inline></script>
     <script src="/inline-scripts/fallback.js" inline></script>
-    <script>
-      'use strict';
-      const textEditor = document.getElementById('textEditor');
-      const charCountSpan = document.getElementById('charCountSpan');
-      textEditor.addEventListener('input', function() {
-        const charsPerPage = 800;
-        const numChars = textEditor.value.replace(/\s/g, '').length;
-        const pages = (numChars / charsPerPage).toFixed(1);
-        charCountSpan.innerText = `(${numChars}c, ${pages}p)`;
-        return false;
-      }, false);
-    </script>
+    <script src="/inline-scripts/maredit.js" inline></script>
   </body>
 </html>
