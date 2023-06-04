@@ -169,6 +169,7 @@
         const numChars = textEditor.value.replace(/\s/g, '').length;
         const pages = (numChars / charsPerPage).toFixed(1);
         charCountSpan.innerText = `(${numChars}c, ${pages}p)`;
+        return false;
       }, false);
     </script>
   </body>
